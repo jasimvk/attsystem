@@ -14,4 +14,7 @@
 
 </p>
 
-## About Laravel
+SQL FIles - employees.sql, checkins.sql in the root folder
+
+
+## Laravel
