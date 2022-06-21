@@ -17,7 +17,7 @@
         {{-- @method('put') --}}
         
         <label>Unique ID</label>
-        <input type="text" name ="uniqueId" class="form-control"/>
+        <input type="text" name ="uniqueId" class="form-control" required/>
         @if($errors->has('uniqueId'))
           <p class="text-danger">{{ $errors->first('uniqueId') }}</p>
         @endif
